@@ -3,12 +3,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 
+* {
+  box-sizing: border-box;
+}
 .main-header {
   background-color: #eac926;
 }
+
+main {
+  width: 90%;
+
+  margin: auto;
+}
+
 body {
   font-family: "Roboto", cursive;
   font-size: 12px;
+  background-color: #ebebeb;
 }
 
 .titulares p {
@@ -19,7 +30,9 @@ body {
   font-size: 18px;
 }
 .descuentos {
+  margin-bottom: 10px;
   font-size: 16px;
+  color: #39b54a;
 }
 .descripciones {
   font-size: 16px;
@@ -27,4 +40,57 @@ body {
 
 .cuotasCentrado {
   text-align: center;
+  margin: auto;
+}
+
+.burger-menu {
+  background-color: #1259c3;
+  color: #ffffff;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  border-radius: 3px;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.icons {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #1259c3;
+
+  text-align: center;
+}
+
+.copyright {
+  margin-left: 4%;
+}
+
+.searchlogo {
+  text-align: right;
+}
+
+.deliveryIcon {
+  text-align: left;
+  color: #39b54a;
+  font-size: 22px;
+}
+
+.productsImg {
+  text-align: center;
+}
+.products {
+  border-top: solid 1px #ebebeb;
+  padding: 15px;
+}
+
+.sectionProduct {
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
