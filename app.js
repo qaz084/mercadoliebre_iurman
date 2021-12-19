@@ -20,3 +20,7 @@ app.get("/login",(req,res)=>{
 
   res.sendFile(path.resolve(__dirname,"./views/login.html"))
 })
+app.post("/loginh",(req,res)=>{
+
+  res.sendFile(path.resolve(__dirname,"./views/home.html"))
+})
