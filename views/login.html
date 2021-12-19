@@ -59,88 +59,33 @@
      
       <form action="/crear-producto" method="get" class="create-form">
         <div class="titulos-form">
-          <h4 >Registro</h4>
+          <h4 >Login de usuario</h4>
         </div>
+     
         <div class="control-formulario">
-        <input  type="text" name="nombre" class="control"
-        placeholder="Nombre: " required>
-        </div>
-        <div class="control-formulario">
-        <input type="text" name="apellido" class="control"
-        placeholder="Apellido: " required>
-        </div>
-        </div>
-        <div class="control-formulario">
-        <input type="text" name="nombre-usuario" class="control"
+        <input required type="text" name="nombre-usuario" class="control"
         placeholder="Nombre de usuario: " required>
-        </div>
-
-       
-        <div class="control-formulario"><label >Fecha de nacimiento:</label>
-        <input type="date" name="fecha-nacimiento" 
-           class="control" placeholder="Fecha de nacimiento" required min="1900-01-01" max="2003-01-01">
-        </div>
-
-        <div class="control-formulario">
-          <input type="text" name="domicilio" class="control"
-          placeholder="Domicilio: " required>
-          </div>
-          <div class="control-formulario">
-            <select name="categoria" class="control-select" required>
-              <option hidden selected>¿Quieres comprar o vender?</option>
-              <option value="comprar">Comprar</option>
-              <option value="vender">Vender</option>
-            </select>
-          </div>
-
-        <div class="control-formulario">
-          <p >Categorías de interés</p>
-          <br>
-          <div><input type="checkbox" name="electro" id="electro"><label for="electro">     Electro</label></div>
-
-          <div><input type="checkbox" name="moda" id="moda"><label for="moda">   Moda</label></div>
-
-          <div><input type="checkbox" name="hogar" id="hogar"><label for="hogar">   Hogar</label></div>
-
-          <div><input type="checkbox" name="jugueteria" id="jugueteria"><label for="jugueteria">    Juguetería</label></div>
-
-          <div><input type="checkbox" name="vidasana" id="vidasana"><label for="vidasana">     Vida sana</label></div>
-
-          
-        </div>
-
-        <div class="control-formulario">
-          <p >Foto de usuario: </p>
-         
-          <div  ><input class="foto-usuario" type="file" name="foto-usuario" id="foto-usuario" required accept=".jpg"></div>
-
         </div>
 
         <div class="control-formulario">
           <p >Contraseña: </p>
          
-          <div><input type="password" name="password" id="password" placeholder="mínimo 8 caracteres..." class="control" required></div>
+          <div><input required type="password" name="password" id="password" placeholder="mínimo 8 caracteres..." class="control" required></div>
         </div>
-        <div class="control-formulario">
-          <p >Confirmar contraseña: </p>
-         
-          <div><input type="password" name="password" id="password" placeholder="repite tu contraseña..." class="control" required></div>
-        </div>
-    
-      
-          
-        <div class="btn-form">
-          <button class="btn-borrar" type="reset">Borrar</button >
 
-          <a href="/"><button  type="submit" class="btn-enviar"  >Enviar</button></a>
-          
+
+        <div class="btn-form-enviar">
+       
+        
+          <a href="/"><button  type="submit" class="btn-enviar-login"  >Enviar</button></a>
         </div>
-     
+      
       </form>
 
       <footer>
+       
           <!-- Paga con tarjeta o efectivo -->
-          <article >
+          <article>
             <div class="icons">
               <i class="fas fa-credit-card"></i>
             </div>
@@ -174,12 +119,12 @@
               puedas hacer, porque estás siempre protegid@.
             </p>
           </article>
-          <section class="copyright">
-            <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
-          </section>
-        </footer>
+       
+  
         <!-- copyright -->
-        <!--  -->
-      
+        <section class="copyright">
+          <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+        </section>
+      </footer>
 </body>
 </html>
